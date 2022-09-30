@@ -6,6 +6,7 @@ import './GridsSidebarCntlr.css'
 import GridItem from '../GridItem/GridItem';
 import Sidebar from '../Sidebar/Sidebar';
 import QuestionAnswer from '../QuestionAnswer/QuestionAnswer';
+import Header2 from '../Header2/Header2';
 
 
 const GridsSidebarCntlr = () => {
@@ -39,7 +40,7 @@ const GridsSidebarCntlr = () => {
                         </div>
                         
                     <Sidebar learningTimes={learningTimes}></Sidebar>
-
+                    <Header2></Header2>
                     </div>
             </div>
             <QuestionAnswer></QuestionAnswer>
