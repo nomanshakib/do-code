@@ -24,7 +24,9 @@ const QuestionAnswer = () => {
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                        <p> </p>
+                            <p>Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.</p>
+                            
+                            <p>The state is a built-in React object that is used to contain data or information about the component. A component's state can change over time; whenever it changes, the component re-renders.</p>
                     </div>
                     </div>
                 </div>
