@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Header from '../Header/Header'
 import './GridsSidebarCntlr.css'
 import GridItem from '../GridItem/GridItem';
+import Sidebar from '../Sidebar/Sidebar';
 
 const GridsSidebarCntlr = () => {
     const [languages, setLanguages] = useState([]);
@@ -35,6 +36,8 @@ const GridsSidebarCntlr = () => {
                         }
                         </div>
                         
+                    <Sidebar learningTimes={learningTimes}></Sidebar>
+
                     </div>
                 </div>
             </>
