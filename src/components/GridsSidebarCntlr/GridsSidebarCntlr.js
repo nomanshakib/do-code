@@ -5,6 +5,8 @@ import Header from '../Header/Header'
 import './GridsSidebarCntlr.css'
 import GridItem from '../GridItem/GridItem';
 import Sidebar from '../Sidebar/Sidebar';
+import QuestionAnswer from '../QuestionAnswer/QuestionAnswer';
+
 
 const GridsSidebarCntlr = () => {
     const [languages, setLanguages] = useState([]);
@@ -39,7 +41,8 @@ const GridsSidebarCntlr = () => {
                     <Sidebar learningTimes={learningTimes}></Sidebar>
 
                     </div>
-                </div>
+            </div>
+            <QuestionAnswer></QuestionAnswer>
             </>
     );
 };
