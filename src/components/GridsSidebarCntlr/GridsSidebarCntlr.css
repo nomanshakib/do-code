@@ -1,0 +1,27 @@
+.cntlr {
+    padding: 100px 0px 50px 70px;
+}
+
+.grids-cntlr {
+    width: 75%;
+    padding-right: 100px;
+    margin-top: 10px;
+}
+
+.grids-cntlr {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card img {
+    height: 160px;
+    border-radius: 10px;
+}
+
+br {
+    display: none;
+}
+
+p {
+    font-weight: 600;
+}

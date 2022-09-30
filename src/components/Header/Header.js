@@ -8,7 +8,7 @@ const Header = () => {
                 <h2 className='mt-2 ms-3 text-primary'>Do Code!</h2>
                 <br />
             </div>
-            <h4>Select Your One:</h4>
+            <h4>Best Tranding Courses:</h4>
         </div>
     );
 };
